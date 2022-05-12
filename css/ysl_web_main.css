@@ -113,7 +113,6 @@ div.mainWrap>div.main div.image div.btn{
     transition: all 0.5s;
 }
 
-div.mainWrap{}
 div.mainWrap::before{
     content: '';
     display: block;
@@ -130,7 +129,6 @@ div.mainWrap>div.main{
     color: #fff;
     margin-top: -960px;
 }
-div.mainWrap>div.main>div.logo{}
 
 div.mainWrap>div.main>div.logo>h1{
     font-size: 60px;
@@ -258,8 +256,6 @@ div.mainWrap>div.main>div.images>div.rightImg>div.image.i1>div.texts>div.btn:hov
     cursor: pointer;
     opacity: 100%;
 }
-div.mainWrap>div.main>div.images>div.rightImg>div.image.i2>div.texts>div.btn>p{
-}
 div.mainWrap>div.main>div.images>div.rightImg>div.image.i2{
     background-size: 100%;
     background-position: center;
@@ -328,12 +324,8 @@ div.mainWrap>div.main>div.images>div.rightImg>div.image.i2>div.texts>div.btn:hov
     cursor: pointer;
     opacity: 100%;
 }
-div.mainWrap>div.main>div.images>div.rightImg>div.image.i2>div.texts>div.btn>p{
-}
 
 /* 컨텐츠 공통 */
-div.cntWrap{
-}
 div.cntWrap>div.content{
     width: 80%;
     max-width: 1080px;
@@ -390,7 +382,6 @@ div.cntWrap>div.content.cnt01>div.section>div.article{
     width: calc(100% / 2);
     float: left;
 }
-div.cntWrap>div.content.cnt01>div.section>div.article>div.image{}
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1{
     background-image: url('../images/main/cnt1Right.jpg');
     background-size: cover;
@@ -448,7 +439,6 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.btn:hover::a
     margin-top: -10px;
     border-radius: 2px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.btn>p{}
 div.cntWrap>div.content.cnt01>div.section>div.btns{
     width: calc(100% / 12 * 1.2);
     margin: 0 auto;  
@@ -488,13 +478,11 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn:nth-child(2):hover{
     box-shadow: 0px 0px 20px #000;
 }
 
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i{}
 
 /* 컨텐츠2 */
 div.cntWrap>div.content.cnt02{
     margin-top: 120px;
 }
-div.cntWrap>div.content.cnt02>div.header{}
 div.cntWrap>div.content.cnt02>div.header>h2{
     font-size: 48px;
     line-height: 40px;
@@ -652,7 +640,6 @@ div.ftrWrap>div.footer>div.info{
     width: calc(100% / 12 * 4);
     float: left;
 }
-div.ftrWrap>div.footer>div.info>h3{}
 div.ftrWrap>div.footer>div.info>p{
     font-size: 18px;
     line-height: 20px;
@@ -672,19 +659,16 @@ div.ftrWrap>div.footer>div.leftCorp{
     width: calc(100% / 12 * 4);
     float: left;
 }
-div.ftrWrap>div.footer>div.leftCorp>h3{}
 div.ftrWrap>div.footer>div.leftCorp>ul.nav{
     margin-top: 40px;
 }
 div.ftrWrap>div.footer>div.leftCorp>ul.nav>li{
     float: left;
 }
-div.ftrWrap>div.footer>div.leftCorp>ul.nav>li>i{}
 div.ftrWrap>div.footer>div.rightCorp{
     width: calc(100% / 12 * 4);
     float: left;
 }
-div.ftrWrap>div.footer>div.rightCorp>h3{}
 div.ftrWrap>div.footer>div.rightCorp>div.corp{
     margin-top: 40px;
 }

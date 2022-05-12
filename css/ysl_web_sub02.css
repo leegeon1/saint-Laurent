@@ -157,7 +157,6 @@ div.mainWrap>div.main>div.btnTop>div.btn>i{
     font-size: 40px;
     line-height: 80px;
 }
-div.mainWrap>div.main>div.btnBtm{}
 div.mainWrap>div.main>div.btnBtm>div.btn{
     width: calc(100% / 12 * 2);
     background-color: #666;
