@@ -93,7 +93,10 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
     width: calc(100vw - 20px);
     margin: 0px 10px;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image.i2{
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(2)~div.article{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(2) div.image{
     height: 280px;
     background-size: 50%;
     background-position: bottom;
@@ -103,16 +106,12 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
     background-size: 50%;
     background-position: bottom;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(2)~div.article{
-    display: none;
-}
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts{
     font-size: 10px;
     line-height: 20px;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts{
-    margin-top: -80px;
-    height: 40px;
+    padding: 0px 100px;
+    margin-top: -60px;
+    height: 60px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts:nth-child(2)>h5:nth-child(2){
     margin-top: 0px;

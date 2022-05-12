@@ -157,17 +157,39 @@ div.cntWrap>div.content.cnt03>div.section{
     margin-top: 40px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup{
-    width: 100%;
+    width: 107%;
 }
 div.cntWrap>div.content.cnt03>div.section div.article{
-    width: calc(100% / 3 - 20px);
-    margin: 0px 10px;
+    width: calc(100% / 3 - 60px);
 }
 div.cntWrap>div.content.cnt03>div.section div.article:nth-child(1){
     display: none;
 }
 div.cntWrap>div.content.cnt03>div.section div.article:nth-child(4)~div.article{
     display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i1{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i2{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i3{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i4{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i5{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts{
+    margin-top: -80px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn>i{
     font-size: 30px;
@@ -177,11 +199,14 @@ div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn>i:hover{
     font-size: 40px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn:nth-child(1){
-    left: 212px;
+    left: 184px;
+    top: -220px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn:nth-child(2){
-    right: 212px;
+    right: 188px;
+    top: -220px;
 }
+
 /* 푸터 */
 div.ftrWrap{
     margin-top: 40px;

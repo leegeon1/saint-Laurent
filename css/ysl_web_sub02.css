@@ -443,11 +443,11 @@ div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>d
     line-height: 20px;
     margin-top: 20px;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts.i5{
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article:hover>div.texts.i5{
     color: #fff;
 }
 div.cntWrap>div.content.cnt03>div.section div.article>div.image.i1{
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../images/sb002/sub2_content3/sub2_content3-01.jpg');

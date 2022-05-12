@@ -93,9 +93,9 @@ div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article{
     width: calc(100vw - 20px);
     margin: 0px 10px;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i2{
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article:nth-child(2) div.image{
     height: 280px;
-    background-size: 55%;
+    background-size: 50%;
     background-position: bottom;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i2:hover{
@@ -109,21 +109,19 @@ div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article:n
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts{
     font-size: 10px;
     line-height: 20px;
-    padding: 0px 10px;
-}
-div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts{
-    margin-top: -80px;
-    height: 40px;
+    padding: 0px 100px;
+    margin-top: -60px;
+    height: 60px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts:nth-child(2)>h5:nth-child(2){
     margin-top: 0px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn:nth-child(1){
-    top: 100px;
+    top: -150px;
     left: 18px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.btns>div.btn:nth-child(2){
-    top: 100px;
+    top: -150px;
     right: 20px;
 }
 /* 푸터 */
