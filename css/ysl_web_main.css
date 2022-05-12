@@ -15,7 +15,6 @@ div.hdrWrap>div.header::after{
     content: '';
     clear: both;
 }
-div.hdrWrap>div.header>div.logo{}
 div.hdrWrap>div.header>div.logo>h1{
     font-size: 24px;
     color: #fff;
