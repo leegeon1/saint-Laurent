@@ -90,6 +90,12 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
 div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(1)>div.texts:nth-child(2){
     height: 160px;
 }
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(2)>div.texts:nth-child(2){
+    height: 160px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(3)>div.texts:nth-child(2){
+    height: 160px;
+}
 div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h3{
     font-size: 18px;
     margin-top: 10px;
