@@ -108,6 +108,9 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h5{
 div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>div.btn{
     margin-top: 20px;
 }
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(1)~div.article>div.texts>div.btn{
+    margin-top: 0;
+}
 
 /* 컨텐츠3 */
 

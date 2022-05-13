@@ -348,6 +348,7 @@ div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>div.btn{
     opacity: 50%;
     transition: all 0.5s;
 }
+
 div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>div.btn:hover{
     font-size: 38px;
     line-height: 80px;
