@@ -190,6 +190,7 @@ div.mainWrap>div.main>div.images>div.leftImg>div.image>div.texts>h5:nth-child(3)
 }
 div.mainWrap>div.main>div.images>div.leftImg>div.image>div.texts>div.btn{
     width: calc(100% / 6 * 2);
+    min-width: 90px;
     font-size: 12px;
     line-height: 40px;
     background-color: #999999;
@@ -237,8 +238,9 @@ div.mainWrap>div.main>div.images>div.rightImg>div.image.i1>div.texts>h4{
     font-size: 30px;
     line-height: 40px;
 }
-div.mainWrap>div.main>div.images>div.rightImg>div.image.i1>div.texts>div.btn{
+div.mainWrap>div.main>div.images>div.rightImg>div.image>div.texts>div.btn{
     width: calc(100% / 6 * 2);
+    min-width: 90px;
     font-size: 12px;
     line-height: 40px;
     background-color: #999999;
