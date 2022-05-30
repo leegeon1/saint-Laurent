@@ -31,6 +31,9 @@ div.hdrWrap>div.header>ul.menu>li:nth-child(2){
 div.hdrWrap>div.header>ul.menu>li:nth-child(3){
     top: 130px;
 }
+div.hdrWrap>div.header>ul.nav>li:hover::after{
+    display: none;
+}
 /* 메인 */
 
 div.mainWrap{
@@ -61,7 +64,8 @@ div.mainWrap>div.main>div.images>div.leftImg>div.image{
     margin-top: 0;
 }
 div.mainWrap>div.main>div.images>div.leftImg>div.image>div.texts{
-    padding: 80px 65px 0px 65px;
+    padding: 0;
+    padding-top: 80px;
 }
 div.mainWrap>div.main>div.images>div.leftImg>div.image>div.texts>h3{
     font-size: 36px;
@@ -83,7 +87,8 @@ div.mainWrap>div.main>div.images>div.rightImg>div.image.i1{
     height: 400px;
 }
 div.mainWrap>div.main>div.images>div.rightImg>div.image.i1>div.texts{
-    padding: 120px 40px 0px 40px;
+    padding: 0px;
+    padding-top: 120px;
 }
 div.mainWrap>div.main>div.images>div.rightImg>div.image.i1>div.texts>h4{
     font-size: 24px;
@@ -113,10 +118,10 @@ div.cntWrap>div.content.cnt01>div.header{
     height: 400px;
 }
 div.cntWrap>div.content.cnt01>div.header>h2{
-    font-size: 36px;
+    font-size: 36px;width: calc(100% / 8 * 4);
 }
 div.cntWrap>div.content.cnt01>div.header>p{
-    width: calc(100% / 8 * 2);
+    width: calc(100% / 8 * 4);
 }
 div.cntWrap>div.content.cnt01>div.section{
     margin-top: 80px;
@@ -144,7 +149,11 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i2{
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.btn{
     width: calc(100% / 4 * 1.5);
-    margin-top: 40px;
+    margin: 40px 0px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.btn>p{
+    overflow: hidden;
+    height: 40px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns{
     width: calc(100% / 8 * 1.2);
